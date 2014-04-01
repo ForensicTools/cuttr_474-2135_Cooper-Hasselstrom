@@ -1,6 +1,6 @@
 LICENSE TERMS
 
-This is a license agreement between you and Matt Cooper and Joe Hasslestrom 
+This is a license agreement between you and Matt Cooper and Joe Hasselstrom 
 (referenced here as, Matt & Joe) describing your rights to use the software, 
 which has been supplied under the terms of this license.  For your convenience,
 we've organized this agreement into two parts. The first part includes 
