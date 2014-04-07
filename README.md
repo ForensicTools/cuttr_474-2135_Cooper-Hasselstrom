@@ -7,7 +7,7 @@ License: Private, do not disclose (TBD)
 
 Tool Name: cuttr
 
-Tool description: The tool that we will create will be an extensible forensic framework that may be extended through Python scripts or modules, Perl scripts or modules, C/C++ and Bash scripts (among others).  Some of the initial built-in functions include:
+Tool description: The tool that we will create will be an extensible forensic framework that may be extended through Python scripts or modules, Perl scripts or modules, C/C++ and Bash scripts (among others).  Some of the initial built-in functions **HOPE TO** include:
 
     Automated carving of disk partitions using fdisk
     Automated carving of disk partitions using mmls (Sleuth Kit)
@@ -51,3 +51,82 @@ For example:
     data/input/sdb.dd6        788992     1048575      129792   83  Linux
 
 The partitions begin at blocks 2048, 261632, 523264, 525312, and 788992.  However, since the 3rd partition (523264) is an extended partition, carving the disk from 523264 to 523264+262656 will result in a disk containing the remaining partitions, plus 4096 blocks of unallocated space.
+
+Step 2. Parse the output of mmls <disk>, storing output in python variables.
+
+For example:
+
+    root@esio:~# mmls data/input/sdb.dd 
+    DOS Partition Table
+    Offset Sector: 0
+    Units are in 512-byte sectors
+
+         Slot    Start        End          Length       Description
+    00:  Meta    0000000000   0000000000   0000000001   Primary Table (#0)
+    01:  -----   0000000000   0000002047   0000002048   Unallocated
+    02:  00:00   0000002048   0000261631   0000259584   Linux (0x83)
+    03:  00:01   0000261632   0000523263   0000261632   Linux (0x83)
+    04:  Meta    0000523264   0001048575   0000525312   DOS Extended (0x05)
+    05:  Meta    0000523264   0000523264   0000000001   Extended Table (#1)
+    06:  -----   0000523264   0000525311   0000002048   Unallocated
+    07:  01:00   0000525312   0000786943   0000261632   Linux (0x83)
+    08:  Meta    0000786944   0001048575   0000261632   DOS Extended (0x05)
+    09:  Meta    0000786944   0000786944   0000000001   Extended Table (#2)
+    10:  -----   0000786944   0000788991   0000002048   Unallocated
+    11:  02:00   0000788992   0001048575   0000259584   Linux (0x83)
+
+
+From this output:
+
+    0000000000 - 0000000001 = MBR
+
+        this is the record that states where each of the primary partitions 
+        begin and end
+
+    0000000000 - 0000002047 = unallocated space
+
+        Unallocated space, dependent upon fdisk, gparted, ect.
+
+    0000261632 - 0000523263 = Linux formatted (ext..ish) filesystem
+
+        0x83 indicates that this partition is indeed an allocated filesystem
+
+    0000523264 - 0001048575 = extended partition (entire)
+
+        0x05 indicates that this is an extended partition, beginning at 
+        beginning at 0000261632, ending at 0000523263.  However this does not
+        indicate that the entire balance of this space is allocated
+
+    0000523264 - 0000523265 = 1st extended boot record
+
+        extended boot record, defining where the beginning and end of the first 
+        extended partition is located, as well as the location of the second
+        extended boot record
+
+    0000523264 - 0000525311 = unallocated space
+
+        Unallocated space, dependent upon fdisk, gparted, ect.
+
+    0000525312 - 0000786943 = Linux formatted (ext..ish) filesystem
+
+        0x83 indicates that this partition is indeed an allocated filesystem
+
+    0000786944 - 0001048575 = 2nd extended partition (entire)
+
+        0x05 indicates that this is an extended partition, beginning at 
+        beginning at 0000786944, ending at 0001048575.  However this does not
+        indicate that the entire balance of this space is allocated
+
+    0000786944 - 0000786945 = 2nd extended boot record
+
+        extended boot record, defining where the beginning and end of the first 
+        extended partition is located, no additional extended boot record
+
+    0000786944 - 0000788991 = unallocated space
+
+        Unallocated space, dependent upon fdisk, gparted, ect.
+
+    0000788992 - 0001048575 = Linux formated (ext..ish) filesystem
+
+        0x83 indicates that this partition is indeed an allocated filesystem
+
