@@ -1,0 +1,263 @@
+LICENSE TERMS
+
+This is a license agreement between you and Matt Cooper and Joe Hasselstrom 
+(referenced here as, Matt & Joe) describing your rights to use the software, 
+which has been supplied under the terms of this license.  For your convenience,
+we've organized this agreement into two parts. The first part includes 
+introductory terms; the Additional Terms and Limited Warranty follow and 
+contain greater detail. You should review the entire agreement, including any 
+linked terms, because all of the terms are important and together create this 
+contract that applies to you.  THE ADDITIONAL TERMS CONTAIN A BINDING 
+ARBITRATION CLAUSE AND CLASS ACTION WAIVER. IF YOU LIVE IN THE UNITED STATES, 
+THESE AFFECT YOUR RIGHTS TO RESOLVE A DISPUTE WITH Matt & Joe, AND YOU SHOULD 
+READ THEM CAREFULLY.
+
+BY ACCEPTING THIS AGREEMENT OR USING THE SOFTWARE, YOU AGREE TO ALL OF THESE 
+TERMS AND CONSENT TO ABIDE BY THEM. IF YOU DO NOT ACCEPT AND COMPLY WITH 
+THESE TERMS, YOU MAY NOT USE THE SOFTWARE OR FEATURES.
+ 
+How can I use the software? We do not sell our software or your copy of it – 
+we only license it. Under our license we grant you the right to install and 
+run that one copy on one computer (the licensed computer) for use by one 
+person at a time, but only if you comply with all the terms of this agreement. 
+Our software license is permanently assigned to the licensed computer.  The 
+components of the software are licensed as a single unit. You may not separate 
+or virtualize the components and install them on different computers. The 
+software may include more than one version, such as 32-bit and 64-bit, and you 
+may install and use only one version at a time.  This license is for direct use 
+of the software only through the input mechanisms of the licensed computer, such 
+as a keyboard, mouse, or touchscreen. It does not give permission for 
+installation of the software on a server or for use by or through other 
+computers or devices connected to the server over an internal or external
+ network. The software also is not licensed for commercial hosting.
+
+How do I obtain a backup copy?  You may order or download a backup copy of the 
+software from Matt & Joe, at Matt’s and/or Joe’s discretion. If a backup is 
+provided, you may not distribute the backup copy of the software. You may use 
+it only to reinstall the software on the licensed computer.
+
+Can I transfer the software to another computer or user? You may not transfer 
+the software to another computer or user. You may transfer the software directly 
+to a third party only as installed on the licensed computer, with this 
+agreement. Before the transfer, that party must agree that this agreement 
+applies to the transfer and use of the software. You may not retain any copies.
+
+Does the software collect my personal information? No.
+
+What does this agreement apply to? This agreement applies to the software, the 
+media on which you received the software, and also any updates from Matt & Joe, 
+supplements, and services for the software, unless other terms come with them.
+
+Are there things I'm not allowed to do with the software? Yes. Because the 
+software is licensed, not sold, Matt & Joe reserve all rights (such as rights 
+under intellectual property laws) not expressly granted in this agreement. In 
+particular, this license does not give you any right to, and you may not: use 
+or virtualize features of the software separately, publish, copy (other than 
+the permitted backup copy), rent, lease, or lend the software; transfer the 
+software (except as permitted by this agreement), attempt to circumvent 
+technical protection measures in the software, reverse engineer, decompile, or 
+disassemble the software, except if the laws where you live permit this even 
+when our agreement does not.  In that case, you may do only what your law 
+allows. You may not use any features of the software in any way that could 
+interfere with anyone else's use of them, or to try to gain access to any 
+service, data, account or network, in an unauthorized manner.
+
+What about upgrading or converting the software? If you install the software 
+covered by this agreement as an upgrade or conversion to your existing software, 
+then the upgrade or conversion replaces the original software that you are 
+upgrading or converting from. You do not retain any rights to the original 
+software after you have upgraded and you may not continue to use it or transfer 
+it in any way. This agreement governs your rights to use the upgrade software 
+and replaces the agreement for the software from which you upgraded.
+
+ADDITIONAL TERMS
+
+LICENSE RIGHTS AND MULTI USER SCENARIOS
+
+1.  Computer. In this agreement, "computer" means a hardware system (whether 
+physical or virtual) with a storage device capable of running the software.  
+A hardware partition or blade is considered to be a computer.
+
+2.  Multiple or pooled connections. You may not use hardware or software to 
+multiplex or pool connections, or otherwise allow multiple users or multiple 
+computers or devices to access or use the software indirectly through the 
+licensed computer.
+
+3.  Use in a virtualized environment. If you use virtualization software, 
+including client hyper-v, to create one or more virtual computers on a single 
+computer hardware system, each virtual computer, and the physical computer, is 
+considered a separate computer for purposes of this agreement. This license 
+allows you to install only one copy of the software for use on one computer, 
+whether that computer is physical or virtual. If you want to use the software 
+on more than one computer, you must obtain separate copies of the software and 
+a separate license for each copy. Content protected by digital rights 
+management technology or other full-volume disk drive encryption technology may 
+be less secure in a virtualized environment.
+
+4.  Remote access. The user that primarily uses the licensed computer is the 
+"primary user." The primary user may access and use the software installed on 
+the licensed device remotely from any other device, as long as the software 
+installed on the licensed device is not being used non-remotely by another user 
+simultaneously. As an exception, you may allow others to access the software 
+simultaneously only to provide you with technical support.
+
+BINDING ARBITRATION AND CLASS ACTION WAIVER
+
+1.  Application. This Section applies to any dispute EXCEPT IT DOES NOT INCLUDE 
+A DISPUTE RELATING TO THE ENFORCEMENT OR VALIDITY OF YOUR, Matt’s or Joe’s, OR 
+EITHER OF OUR LICENSORS' INTELLECTUAL PROPERTY RIGHTS. Dispute means any 
+dispute, action, or other controversy between you and Matt & Joe concerning the 
+software (including its price) or this agreement, whether in contract, warranty, 
+tort, statute, regulation, ordinance, or any other legal or equitable basis. 
+"Dispute" will be given the broadest possible meaning allowable under law.
+
+2.  Notice of Dispute. In the event of a dispute, you or Matt & Joe must give 
+the other a Notice of Dispute, which is a written statement of the name, 
+address and contact information of the party giving it, the facts giving rise 
+to the dispute, and the relief requested. You must send any Notice of Dispute 
+by U.S. Mail to Matt & Joe, ATTN: ARBITRATION, [address].  Matt & Joe will send 
+any Notice of Dispute to you by U.S. Mail to your address if we have it, or 
+otherwise to your e-mail address. You and Matt & Joe will attempt to resolve 
+any dispute through informal negotiation within 60 days from the date the 
+Notice of Dispute is sent. After 60 days, you or Matt & Joe may commence 
+arbitration.
+
+3.  Small Claims Court. You may also litigate any dispute in small claims court 
+in your county of residence or Bradford County, Pennsylvania, if the dispute 
+meets all requirements to be heard in the small claims court. You may litigate 
+in small claims court whether or not you negotiated informally first.
+
+4.  BINDING ARBITRATION. IF YOU AND Matt & Joe DO NOT RESOLVE ANY DISPUTE BY 
+INFORMAL NEGOTIATION OR IN SMALL CLAIMS COURT, ANY OTHER EFFORT TO RESOLVE THE 
+DISPUTE WILL BE CONDUCTED EXCLUSIVELY BY BINDING ARBITRATION.  YOU ARE GIVING 
+UP THE RIGHT TO LITIGATE (OR PARTICIPATE IN AS A PARTY OR CLASS MEMBER) ALL 
+DISPUTES IN COURT BEFORE A JUDGE OR JURY. Instead, all disputes will be 
+resolved before a neutral arbitrator, whose decision will be final except for a 
+limited right of appeal under the Federal Arbitration Act. Any court with 
+jurisdiction over the parties may enforce the arbitrator's award.
+
+5.  CLASS ACTION WAIVER. ANY PROCEEDINGS TO RESOLVE OR LITIGATE ANY DISPUTE IN 
+ANY FORUM WILL BE CONDUCTED SOLELY ON AN INDIVIDUAL BASIS. NEITHER YOU NOR 
+Matt & Joe WILL SEEK TO HAVE ANY DISPUTE HEARD AS A CLASS ACTION, PRIVATE 
+ATTORNEY GENERAL ACTION, OR IN ANY OTHER PROCEEDING IN WHICH EITHER PARTY ACTS 
+OR PROPOSES TO ACT IN A REPRESENTATIVE CAPACITY. NO ARBITRATION OR PROCEEDING 
+WILL BE COMBINED WITH ANOTHER WITHOUT THE PRIOR WRITTEN CONSENT OF ALL PARTIES 
+TO ALL AFFECTED ARBITRATIONS OR PROCEEDINGS.
+
+6.  Arbitration Procedure, Costs, Fees and Incentives. Any arbitration will be 
+conducted by the American Arbitration Association (the "AAA") under its 
+Commercial Arbitration Rules and in many cases its Supplementary Procedures for 
+Consumer-Related Disputes. For more information, see adr.org or call 
+1-800-778-7879. Under no circumstances will Matt & Joe reimburse your filing 
+fees or pay the AAA's and arbitrator's fees. You agree to the terms governing 
+procedures, and to pay any associated fees.  You agree to commence arbitration 
+only in your county of residence or in Bradford County, Pennsylvania. Matt & Joe 
+agree to commence arbitration only in Bradford County, Pennsylvania.
+
+7.  Claims or Disputes Must be Filed Within One Year. To the extent permitted by 
+law, any claim or dispute under this agreement to which this Section applies 
+must be filed within one year in small claims court or in arbitration. The 
+one-year period begins when the claim or dispute first could be filed. If such a 
+claim or dispute is not filed within one year, it is permanently barred.
+
+8.  Severability. If the class action waiver in this Section is found to be 
+illegal or unenforceable as to all or some parts of a dispute, then this Section 
+(arbitration) will not apply to those parts. Instead, those parts will be 
+severed and proceed in a court of law, with the remaining parts proceeding in 
+arbitration. If any other provision of this Section is found to be illegal or 
+unenforceable, that provision will be severed with the remainder of this Section 
+remaining in full force and effect.
+
+CHOICE OF LAW
+
+The laws of the state or country where you live govern all claims and disputes 
+under this agreement, including breach of contact claims and claims under state 
+consumer protection laws, unfair competition laws, implied warranty laws, for 
+unjust enrichment, and in tort. If you acquired the software in any other country, 
+the laws of that country apply. This agreement describes certain legal rights. 
+You may have other rights, including consumer rights, under the laws of your 
+state or country. You may also have rights with respect to the party from whom 
+you acquired the software. This agreement does not change those other rights if 
+the laws of your state or country do not permit it to do so.
+
+ADDITIONAL LICENSING REQUIREMENTS AND/OR USE RIGHTS
+
+1.  Third Party Programs. The software may include third party programs that 
+Matt & Joe, not the third party, licenses to you under this agreement. Notices, 
+if any, for the third party program are included for your information only.
+
+2.  Trial and Conversion. Some or all of the software may be licensed on a trial 
+basis. Your rights to use trial software are limited to the trial period. The 
+trial software and length of the trial period are set forth during the 
+activation process. You may have the option to convert your trial rights to 
+subscription or perpetual rights. Conversion options will be presented to you at 
+the expiration of your trial period. After the expiration of any trial period 
+without conversion, features of the trial software may stop running. TRIAL 
+SOFTWARE IS LICENSED "AS-IS," AND YOU BEAR THE RISK OF USING IT. Matt & Joe GIVE 
+NO EXPRESS WARRANTIES, GUARANTEES OR CONDITIONS. YOU MAY HAVE ADDITIONAL 
+CONSUMER RIGHTS UNDER YOUR LOCAL LAWS WHICH THIS AGREEMENT CANNOT CHANGE. 
+TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, Matt & Joe EXCLUDE THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NON-INFRINGEMENT.
+
+3.  Subscription Software. If you licensed the software on a subscription basis, 
+your rights to use the software are limited to the subscription period. You may 
+have the option to extend your subscription or convert to a perpetual license. 
+If you extend your subscription, you may continue using the software until the 
+end of your extended subscription period. See the software activation screens 
+or other accompanying materials for subscription details. After the expiration 
+of your subscription, most features of the software will stop running.
+
+GEOGRAPHIC AND EXPORT RESTRICTIONS
+
+If there is a geographic region indicated on your software packaging, then you 
+may activate the software only in that region. You must also comply with all 
+domestic and international export laws and regulations that apply to the 
+software, which include restrictions on destinations, end users, and end use.
+
+SUPPORT AND REFUND PROCEDURES
+
+Matt & Joe provides NO support services for licensed software.
+
+If you are seeking a refund, and you cannot obtain one where you acquired the 
+software, contact Matt & Joe for information about Matt's and/or Joe’s refund 
+policies.
+
+ENTIRE AGREEMENT
+
+This agreement (together with terms accompanying any software supplements, 
+updates, and services that are provided by Matt & Joe and that you use), and the 
+terms contained in additional resources noted in this agreement, are the entire 
+agreement for the software and any such supplements, updates, and services 
+(unless Matt & Joe provide other terms with such supplements, updates, or 
+services). You can review this agreement after your software is running by 
+consulting this document, and you agree to do so. You agree that for each 
+service that is governed by this agreement and also specific terms noted in this 
+agreement, you will read the terms for that service before using the service. 
+You understand that by using the service, you accept this agreement and the 
+noted resource terms. 
+
+RETAIL LIMITED WARRANTY
+
+Do Matt & Joe provide a LIMITED WARRANTY for the software? No, the software is 
+licensed "as-is" and without express warranties, guarantees and conditions.  
+Matt & Joe do not imply warranty, and do not cover problems that you cause, or 
+that arise when you fail to follow our instructions, or that are caused by 
+events beyond Matt's and/or Joe’s reasonable control. This applies to any 
+supplements, updates, or replacement software that you may receive from 
+Matt & Joe.  Matt & Joe EXCLUDE ALL IMPLIED WARRANTIES, INCLUDING THOSE OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. 
+
+What if Matt & Joe breach any part of this agreement? IF YOU HAVE ANY BASIS FOR 
+RECOVERING DAMAGES FROM Matt & Joe, YOU CAN RECOVER ONLY DIRECT DAMAGES UP TO 
+THE AMOUNT THAT YOU PAID FOR THE SOFTWARE. YOU MAY NOT RECOVER ANY OTHER 
+DAMAGES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT, OR INCIDENTAL 
+DAMAGES. The damage exclusions and limitations in this agreement apply even if 
+repair, replacement or a refund for the software does not fully compensate you 
+for any losses or if Matt & Joe knew or should have known about the possibility 
+of the damages. SOME STATES AND COUNTRIES DO NOT ALLOW THE EXCLUSION OR 
+LIMITATION OF INCIDENTAL, CONSEQUENTIAL, OR OTHER DAMAGES, SO THOSE LIMITATIONS 
+OR EXCLUSIONS MAY NOT APPLY TO YOU. IF YOUR LOCAL LAW ALLOWS YOU TO RECOVER 
+OTHER DAMAGES FROM Matt & Joe EVEN THOUGH WE DO NOT, YOU CANNOT RECOVER MORE 
+THAN YOU PAID FOR THE SOFTWARE.
+
