@@ -130,3 +130,30 @@ From this output:
 
         0x83 indicates that this partition is indeed an allocated filesystem
 
+Step 3: carve the partitions from the disk
+
+Now, the disk may be carved into partitions using outputs of fdisk as follows:
+
+    dd if=data/input/disks/sdb.dd of=data/output/sdb.dd1 bs=512 skip=2048 count=259584
+    259584+0 records in
+    259584+0 records out
+    132907008 bytes (133 MB) copied, 2.61187 s, 50.9 MB/s
+
+
+    dd if=data/input/disks/sdb.dd of=data/output/sdb.dd2 bs=512 skip=261632 count=261632
+    261632+0 records in
+    261632+0 records out
+    133955584 bytes (134 MB) copied, 2.79361 s, 48.0 MB/s
+
+    dd if=data/input/disks/sdb.dd of=data/output/sdb.dd3 bs=512 skip=525312 count=261632
+    261632+0 records in
+    261632+0 records out
+    133955584 bytes (134 MB) copied, 2.42183 s, 55.3 MB/s
+
+    dd if=data/input/disks/sdb.dd of=data/output/sdb.dd4 bs=512 skip=788992 count=259584
+    259584+0 records in
+    259584+0 records out
+    132907008 bytes (133 MB) copied, 2.08099 s, 63.9 MB/s
+
+The same may be accomplished using the output of mmls, however, the unallocated
+is more clearly marked, giving more options.
