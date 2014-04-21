@@ -157,3 +157,19 @@ Now, the disk may be carved into partitions using outputs of fdisk as follows:
 
 The same may be accomplished using the output of mmls, however, the unallocated
 is more clearly marked, giving more options.
+
+===============================================================================
+    Extended Scriptability
+===============================================================================
+
+Given that this project is undertaken by two people who speak entirely
+different programming languages, there arises a need to be able to extend this
+Python framework to include Perl, Bash, C/C++ and various other language
+libraries.
+
+The first script contributed to this library accepts a file system as its first
+argument and attempts to reconstitute JPEG format files using magic number
+patterns.  This method works well with image files smaller than 8M.  Larger
+images require more massaging of data blocks.
+
+

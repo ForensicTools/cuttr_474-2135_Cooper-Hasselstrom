@@ -1,3 +1,5 @@
+Copyright (c) 2014 Matt Cooper & Joe Hasselstrom
+
 LICENSE TERMS
 
 This is a license agreement between you and Matt Cooper and Joe Hasselstrom 
