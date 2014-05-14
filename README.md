@@ -173,3 +173,65 @@ patterns.  This method works well with image files smaller than 8M.  Larger
 images require more massaging of data blocks.
 
 
+===============================================================================
+    File Recovery
+===============================================================================
+
+Given a filesystem, the output of fls provides the inode information that is 
+necessary to recover NON-deleted files from the file system.
+
+    root@esio:$ fls -r data/input/disks/sdb.dd1
+    d/d 11: lost+found
+    d/d 4065:   archive
+    + r/r 4066: man.zip
+    + r/r 4067: man.tar
+    d/d 8129:   doc
+    + r/r 8130: rit-State_of_the_Institute_2012_Final.docx
+    + r/r 8131: DoD_timeline_transcript.doc
+    d/d 12193:  exe
+    + r/r 12194:    putty.exe
+    + r/r 12195:    hello.c
+    + r/r 12196:    hello.o
+    + r/r 12197:    hello.sh
+    d/d 28449:  img
+    + r/r 28450:    img-zip.jpeg
+    + r/r 28451:    img-tar.jpeg
+    + r/r 28452:    img-pdf.jpeg
+    + r/r 28453:    img-drew.png
+    + r/r 28454:    img-rit.jpeg
+    + r/r 28455:    img-earl.gif
+    d/d 16257:  links
+    + r/r 16258:    img-pdf.jpeg
+    + l/l 16259:    hello.o
+    + l/l 16260:    img-rit.jpeg
+    + r/r 16261:    hello.sh
+    d/d 18289:  pdf
+    + r/r 18290:    extrasensory_perception_part01.pdf
+    d/d 10161:  ppt
+    + r/r 10162:    rit-STANYS_2010.pptx
+    + r/r 10163:    rit-CMPseminar.ppt
+    d/d 24385:  text
+    + r/r 24386:    man-fsstat.txt
+    + r/r 24387:    man-man.txt
+    + r/r 24388:    man-ls.txt
+    + r/r 24389:    man-fdisk.txt
+    + r/r 24390:    man-grep.txt
+    d/d 26417:  xls
+    + r/r 26418:    rit-edu-System_Level_Specifications.xlsx
+    + r/r 26419:    healthcare-gov-Insurance_data_for_me__Pinellas.xls
+    d/d 14225:  deleted
+    + r/r * 14226:  img-drew.png
+    + r/r * 14227:  img-earl.gif
+    + r/r * 14228:  img-pdf.jpeg
+    + r/r * 14229:  img-rit.jpeg
+    + r/r * 14230:  img-tar.jpeg
+    + r/r * 14231:  img-zip.jpeg
+    d/d 32513:  $OrphanFiles
+
+Parsing the output of fls provides a list of inodes containing data blocks
+which are either directly or indirectly allocated to the file.  The icat
+utility can then be used to recover each of the files listed (those without
+the asterisk).  For example, the following command recovers the file hello.sh:
+
+    icat data/input/disks/sdb.dd1 16261
+
